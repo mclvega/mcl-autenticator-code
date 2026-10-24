@@ -1,0 +1,19 @@
+{
+  "name": "mcl-autenticator-code",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generador de códigos de autenticación de 6 cifras que cambian cada 10 segundos.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}
